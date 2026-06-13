@@ -1,0 +1,7 @@
+all: server_1258
+
+server_1258: server_1258.c
+gcc -Wall -o server_1258 server_1258.c
+
+clean:
+rm -f server_1258
